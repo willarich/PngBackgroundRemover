@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Images\Dice.png" />
+      <Content Include="Images\Dice.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Images\Energy.png" />
+      <Content Include="Images\Energy.png" />
+      <None Remove="Images\Fake.png" />
+      <Content Include="Images\Fake.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Images\GreenCircle.png" />
+      <Content Include="Images\GreenCircle.png" />
+      <None Remove="Images\purple_smoke.jpg" />
+      <Content Include="Images\purple_smoke.jpg">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Images\purple_smoke.png" />
+      <Content Include="Images\purple_smoke.png" />
+      <None Remove="Images\Squirtle.png" />
+      <Content Include="Images\Squirtle.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+</Project>
