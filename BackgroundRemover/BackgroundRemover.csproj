@@ -17,19 +17,13 @@
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
       <None Remove="Images\Energy.png" />
-      <Content Include="Images\Energy.png" />
       <None Remove="Images\Fake.png" />
       <Content Include="Images\Fake.png">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
       <None Remove="Images\GreenCircle.png" />
-      <Content Include="Images\GreenCircle.png" />
       <None Remove="Images\purple_smoke.jpg" />
-      <Content Include="Images\purple_smoke.jpg">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
       <None Remove="Images\purple_smoke.png" />
-      <Content Include="Images\purple_smoke.png" />
       <None Remove="Images\Squirtle.png" />
       <Content Include="Images\Squirtle.png">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
